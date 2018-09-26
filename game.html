@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>JavaScript Game</title>
+</head>
+<body>
+	<h1>Random Number Game</h1>
+<h3><strong>The rules of the game are:</strong></h3>
+ <div>
+ 	<ul>
+ 		<li>When the game starts you have 1000 INR</li>
+ 		<li>Every time you press <strong>Start</strong>, 3 random numbers are genrated and 100 INR gets deducted</li>
+ 		<li>If all the random numbers are either odd or even, you get 300 INR</li>
+ 		<li>If all the random numbers are in sequence (eg 123,012, ... etc), you get 800 INR</li>
+ 		<li>If all the random numbers are same,you get 1000 INR</li>
+ 		<li>If INR reaches 0, Game Over</li>
+ 	</ul>
+ 	<p >You have 1000 INR</p>
+ 	<button type="button" id="play" onclick="updateScore()"> Start</button>
+
+
+ </div>
+ <script type="text/javascript" src="main.js"></script>
+ 	<script src="jquery-3.3.1.min.js"></script>
+ 	<script >
+ 		 $( "#play" ).click(function() {
+     window.location.href = "results.html";
+ });
+ 	</script>
+
+
+</body>
+</html>
